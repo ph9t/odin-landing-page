@@ -99,6 +99,30 @@ footer {
   padding: 8px 25px;
 }
 
+/* QUOTE */
+.quote-section {
+  background-color: #e5e7eb;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 50%;
+
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.quote-container .author {
+  text-align: right;
+}
+
+/* FOOTER */
 footer {
   height: 100px;
   display: flex;
