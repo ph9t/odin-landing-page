@@ -10,11 +10,15 @@ body {
 .header {
   display: flex;
   justify-content: center;
+}
+
+.header,
+.hero {
   background-color: #1f2937;
 }
 
 .header-container {
-  width: 80%;
+  width: 75%;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -46,7 +50,50 @@ body {
 .header-nav a {
   text-decoration: none;
   font-size: 18px;
+}
+
+.header-nav a,
+.hero-subtext {
   color: #e5e7eb;
 }
 
 /* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  width: 75%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin-bottom: 25px;
+}
+
+.hero-subtext {
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.btn-main {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 25px;
+}
