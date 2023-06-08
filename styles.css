@@ -99,6 +99,10 @@ footer {
   padding: 8px 25px;
 }
 
+.btn-main.inverted {
+  border: 2px solid white;
+}
+
 /* INFO */
 .info-section {
   display: flex;
@@ -151,6 +155,35 @@ footer {
 
 .quote-container .author {
   text-align: right;
+}
+
+/* CALL TO ACTION */
+.call-action-section {
+  min-height: 300px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.call-action-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 50px;
+  background-color: #3882f6;
+  border-radius: 15px;
+}
+
+.call-header {
+  color: #f9faf8;
+  font-size: 20px;
+}
+
+.call-sub {
+  color: #e5e7eb;
 }
 
 /* FOOTER */
